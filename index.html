@@ -628,21 +628,131 @@
               <h2 class="fs-4 class-text">Testiomonials</h2>
               <h1 class="fw-bold">Our Happy Clients</h1>
             </div>
+
+    <div
+    class="swiper testi-thumb"
+  >
+  <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class=" mb-3 mt-5">
+          <div class="card-body text-center client-section mx-auto">
+            <h5 class=" fw-bolder mt-5 ">5.0</h5>
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <p class="fw-bold mt-5 client-section-description">
+              We tried several agencies before we found daCode. Has been a
+              pleasure to work with and will soon start the next project
+              with our second brand.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-
+      <div class="swiper-slide">
+        <div class=" mb-3 mt-5">
+          <div class="card-body text-center client-section mx-auto">
+            <h5 class=" fw-bolder mt-5 ">5.0</h5>
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <p class="fw-bold mt-5 client-section-description">
+              We tried several agencies before we found daCode. Has been a
+              pleasure to work with and will soon start the next project
+              with our second brand.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class=" mb-3 mt-5">
+          <div class="card-body text-center client-section mx-auto">
+            <h5 class=" fw-bolder mt-5 ">5.0</h5>
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <p class="fw-bold mt-5 client-section-description">
+              We tried several agencies before we found daCode. Has been a
+              pleasure to work with and will soon start the next project
+              with our second brand.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class=" mb-3 mt-5">
+          <div class="card-body text-center client-section mx-auto">
+            <h5 class=" fw-bolder mt-5 ">5.0</h5>
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <p class="fw-bold mt-5 client-section-description">
+              We tried several agencies before we found daCode. Has been a
+              pleasure to work with and will soon start the next project
+              with our second brand.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class=" mb-3 mt-5
+        ">
+          <div class="card-body text-center client-section mx-auto">
+            <h5 class=" fw-bolder mt-5 ">5.0</h5>
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <img src="/image/🔹Icon Color.png" alt="" />
+            <p class="fw-bold mt-5 client-section-description">
+              We tried several agencies before we found daCode. Has been a
+              pleasure to work with and will soon start the next project
+              with our second brand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <div thumbsSlider="" class="swiper testimonial">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="image/Image Place Holder.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="image/Image Place Holder (1).png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="image/Image Place Holder (2).png" />  
+      </div>
+      <div class="swiper-slide">
+        <img src="image/Image Place Holder (1).png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="image/Image Place Holder.png" />
+      </div>
+    </div>
+  </div>
+</section>
     <!-- Bootstrap js -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
+    
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -671,6 +781,23 @@
           1500: {
             slidesPerView: 3,
           },
+        },
+
+      });
+      var swiper = new Swiper(".testimonial", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".testi-thumb", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
         },
       });
     </script>

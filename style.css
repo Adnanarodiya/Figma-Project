@@ -489,6 +489,19 @@ ul .spacing {
   border-radius: 24px;
 }
 
+.client-section {
+  width: 1250px;
+  height: 350px;
+  border-radius: 1rem;
+  /* border: 5px solid black; */
+  box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+}
+
+.client-section-description {
+  margin-left: 4rem;
+  margin-right: 3rem;
+}
+
 /* Strat meeting-section css */
 
 /* Start footer-section css */
