@@ -13,10 +13,6 @@
 }
 
 .btn:hover {
-  /* -webkit-transition: all .4s ease-out 0s; */
-  /* -o-transition: all .4s ease-out 0s; */
-  /* -moz-transition: all .4s ease-out 0s; */
-  /* transition: all .4s ease-out 0s; */
   opacity: 0.7;
   transform: translate3d(0, -5px, 0);
 }
@@ -85,10 +81,6 @@ ul .spacing {
   padding: 20px 0;
 }
 
-/* .home-section {
-    position: relative !important;
-} */
-
 .home-section .hero-main-vectore {
   max-height: 902.26px;
 }
@@ -116,7 +108,6 @@ ul .spacing {
   line-height: 24px;
   transition: 0.5s all;
   border-color: var(--grey);
-  /* filter: drop-shadow(0px 14px 39px rgba(255, 255, 255, 0.3)); */
   box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
 }
 
@@ -161,13 +152,9 @@ ul .spacing {
 
 .cards {
   position: relative;
-  /* height: 1272.69px !important; */
-  /* margin: 190px 0 !important; */
-  /* background-color: var(--background); */
 }
 
 .card-section {
-  /* position: absolute !important; */
   background-color: var(--background);
   height: 100%;
   padding: 119px 0 174px 0;
@@ -178,14 +165,9 @@ ul .spacing {
   line-height: 61px;
 }
 
-/* #card h1 {
-    padding-top: 119.01px;
-} */
-
 .section-description {
   font-size: 20px;
   max-width: 761px;
-  /* line-height: 20.44px; */
 }
 
 .card-information {
@@ -396,10 +378,6 @@ ul .spacing {
   opacity: 1 !important;
 }
 
-/* #mytabcontent>.active{
-    display: none !important;
-} */
-
 /* End poerfolio section css */
 
 /* Start idea section css */
@@ -444,8 +422,9 @@ ul .spacing {
 .list-group-item-action:hover {
   background-color: transparent;
 }
-
 .idea-main-vectore {
+  left: 0%;
+  bottom: 0%;
   margin-top: 150px;
 }
 
