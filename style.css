@@ -13,7 +13,7 @@
 }
 
 .btn:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   transform: translate3d(0, -5px, 0);
 }
 
@@ -431,6 +431,13 @@ ul .spacing {
 /* End idea section css */
 
 /* Start cta section css */
+.class-text {
+  color: var(--skyblue);
+}
+
+.class-description {
+  color: var(--green);
+}
 
 .cta {
   position: relative !important;
@@ -502,14 +509,78 @@ ul .spacing {
   margin-right: 3rem;
 }
 
-/* Strat meeting-section css */
+.small-img {
+  width: 100px !important;
+}
 
-/* Start footer-section css */
+.big-img {
+  width: 160px !important;
+  text-align: center;
+}
 
-.class-text {
+.client-description {
+  text-align: center;
+  transform: translate3d(0px, 0px, 0px);
+  justify-content: center;
+  align-items: baseline;
+}
+
+/* End client section  */
+
+/* Start client section */
+
+.blog-section {
+  background-color: var(--background);
+  height: 500px;
+  align-content: unset;
+}
+
+.blog {
+  margin-top: 110px;
+}
+
+.blog-btn {
+  border-color: var(--skyblue);
+  padding: 12.58px 22.78px;
+  color: var(--skyblue);
+  font-size: 18px;
+  transition: 0.5s;
+  line-height: 27px;
+}
+
+.blog-btn:hover {
   color: var(--skyblue);
 }
 
-.class-description {
-  color: var(--green);
+.blog-description {
+  line-height: 21px;
+  opacity: 0.7;
+  font-weight: 500;
+  width: 350px;
 }
+
+.blog-card-information {
+  width: 33.33%;
+  background-color: var(--card-background);
+  z-index: 9;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+}
+
+.blog-fs {
+  font-size: 14px;
+}
+.card-body .blog-readmore {
+  color: var(--skyblue) !important;
+  line-height: 18px;
+  transition: 0.5s all;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* .blog-btn > :hover {
+  color: var(--skyblue) !important;
+} */
+
+/* End clent section */
