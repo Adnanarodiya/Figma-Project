@@ -441,7 +441,7 @@ ul .spacing {
 
 .cta {
   position: relative !important;
-  height: 580px !important;
+  height: 579px !important;
 }
 
 .cta-section {
@@ -527,7 +527,7 @@ ul .spacing {
 
 /* End client section  */
 
-/* Start client section */
+/* Blog client section */
 
 .blog-section {
   background-color: var(--background);
@@ -583,4 +583,34 @@ ul .spacing {
   color: var(--skyblue) !important;
 } */
 
-/* End clent section */
+/* End blog section */
+
+/* Start footer section  */
+.footer {
+  position: relative !important;
+  height: 250px !important;
+}
+
+.footer-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 30px !important;
+  position: absolute;
+  top: -150px !important;
+  background-image: url("/image/Footer.png");
+  align-items: unset;
+}
+
+.footer-description {
+  font-size: 13px;
+}
+
+.footer-word {
+  float: right;
+}
+
+.footer-copywright {
+  float: left;
+}
+/* End footer section  */
