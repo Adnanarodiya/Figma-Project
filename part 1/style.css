@@ -368,7 +368,7 @@ ul .spacing {
   top: 538px !important;
   left: 0;
   right: 0;
-  max-width: 211px;
+  /* max-width: 211px; */
   padding: 22px 66px;
   box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
   transition: 0.5s all;
@@ -451,7 +451,7 @@ ul .spacing {
   padding-top: 200px !important;
   position: absolute;
   top: -150px !important;
-  background-image: url("/image/Group\ 11032.png");
+  background-image: url(image/Group\ 11032.png);
 }
 
 .cta-sections {

@@ -1,0 +1,359 @@
+:root {
+  --skyblue: #7bc0e3;
+  --green: #60e1cb;
+  --dark: #000000;
+  --white: #ffffff;
+  --background: #e9fbf8;
+  --grey: #00073b2b;
+  --card-background: #fdfdff;
+}
+
+.container {
+  max-width: 1420px !important;
+}
+
+.btn:hover {
+  /* opacity: 0.7; */
+  transform: translate3d(0, -5px, 0);
+}
+
+section {
+  padding: 49px 0;
+}
+
+/* Start navbar section css */
+
+.nav-section {
+  height: 109px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--green) !important;
+  font-weight: 450;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--dark) !important;
+}
+
+.d-flex {
+  margin-left: 28.07px !important;
+}
+
+.btn-info {
+  background-color: var(--skyblue);
+  padding: 11.58px 22.72px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  border-color: var(--skyblue);
+  transition: 0.5s all;
+  line-height: 27px;
+}
+
+.btn-info:hover {
+  background-color: var(--skyblue);
+  color: var(--white);
+  border-color: var(--skyblue);
+  border: 2px solid var(--skyblue) !important;
+  opacity: 0.7;
+  transform: translate3d(0, -5px, 0);
+}
+
+.navbar-collapse a {
+  font-size: 18px !important;
+  line-height: 23px;
+}
+
+.navbar-collapse a:hover {
+  color: var(--dark) !important;
+}
+
+ul .spacing {
+  padding: 0 20px;
+}
+
+/* End nevbar section css  */
+
+/* start SaaS buss  */
+.class-text {
+  color: var(--skyblue);
+}
+
+.class-description {
+  color: var(--green);
+}
+
+.saas {
+  position: relative !important;
+  height: 579px !important;
+}
+
+.saas-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+  position: absolute;
+  /* top: -150px !important; */
+  background-image: url("image/Group\ 70\ 11.png");
+}
+
+.Saas-discriptio {
+  width: 610px;
+}
+.saas-sections {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+}
+
+.saas-width {
+  max-width: 819.19px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+/* End SaaS buss  css */
+
+/* start our service section css */
+.cards {
+  position: relative;
+}
+
+.card-section {
+  background-color: var(--background);
+  height: 100%;
+  padding: 119px 0 174px 0;
+  border-radius: 50px;
+  width: 1530px;
+  margin-left: 50px;
+  /* margin-bottom: 170px; */
+  margin-top: -149px;
+}
+
+.section-heading {
+  font-size: 48px;
+  line-height: 61px;
+}
+
+.section-description {
+  font-size: 20px;
+  max-width: 761px;
+}
+
+.card-information {
+  border-top: 7px solid var(--green) !important;
+  background-color: var(--card-background);
+  z-index: 9;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+}
+
+.card-information .card {
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+}
+
+.info-wrapper .information-box:nth-child(1) .card-information,
+.info-wrapper .information-box:nth-child(2) .card-information,
+.info-wrapper .information-box:nth-child(3) .card-information {
+  box-shadow: 0px 97px 90px rgb(7 0 59 / 12%);
+}
+
+.card-sub-title {
+  font-size: 18px;
+}
+
+.card-container {
+  max-width: 1137px;
+}
+
+.information-section {
+  position: relative;
+}
+
+.information-header {
+  position: relative;
+  padding-top: 67px;
+  margin-bottom: 32px;
+}
+
+.information-icon {
+  margin: -53px 0 0 33px;
+  width: 45px;
+  height: 38.82px;
+  object-fit: cover;
+}
+
+.information-tag-line {
+  width: 100%;
+  height: 7px;
+  background-color: var(--green);
+  margin: -100px 0 0 0;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+}
+
+.information-icon-circle {
+  width: 45px;
+  height: 45px;
+  background-color: var(--green);
+  opacity: 0.2;
+  margin: 0 0 0 20.9px !important;
+}
+
+.information-heading {
+  line-height: 25px;
+}
+
+.information-description {
+  line-height: 21px;
+  opacity: 0.7;
+  /* width: 285px; */
+  font-weight: 500;
+}
+
+.g-30 {
+  --bs-gutter-x: 30px;
+  --bs-gutter-y: 30px;
+}
+
+.col .information-body {
+  padding: 0 47px 42.35px 33px;
+}
+
+.fa-arrow-right-long {
+  margin-left: 6px;
+  transition: 0.5s all;
+}
+
+.information-body .information-readmore {
+  color: var(--skyblue) !important;
+  line-height: 18px;
+  transition: 0.5s all;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.information-body .information-readmore:hover {
+  transform: translateX(15px) !important;
+  color: var(--green) !important;
+}
+
+.information-body .fa-arrow-right-long {
+  transform: 0.5s all;
+}
+
+.card-body .fa-arrow-right-long:hover {
+  color: var(--green);
+  transform: translateX(15px);
+}
+
+.card-vectore {
+  max-height: 415.49px;
+  position: absolute;
+  bottom: -125px;
+  right: 0;
+}
+/* end our service section */
+
+/* Start cta section css */
+.class-text {
+  color: var(--skyblue);
+}
+
+.class-description {
+  color: var(--green);
+}
+
+.cta {
+  position: relative !important;
+  height: 579px !important;
+}
+
+.cta-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+  /* position: absolute; */
+  top: -150px !important;
+  background-image: url(image/Group\ 11032.png);
+}
+
+.cta-sections {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+}
+
+.cta-width {
+  max-width: 819.19px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.cta-btn {
+  position: absolute;
+  top: 56.5% !important;
+  max-width: 280px;
+  left: 0;
+  right: 0;
+  padding: 22px 66px;
+  box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
+  transition: 0.5s all;
+}
+
+.service-cta-section {
+  top: 0 !important;
+}
+
+/* End cta section css */
+
+/* start Establishing section */
+.highlights {
+  color: var(--green);
+}
+
+.establishing-section {
+  max-width: 995px;
+}
+
+.section-description {
+  font-size: 21px;
+}
+
+/* End Establishing section */
+
+/* Start footer section  */
+.footer {
+  position: relative !important;
+  height: 250px !important;
+}
+
+.footer-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 30px !important;
+  position: absolute;
+  top: -150px !important;
+  background-image: url("/image/Footer.png");
+  align-items: unset;
+}
+
+.footer-description {
+  font-size: 13px;
+}
+
+.footer-word {
+  float: right;
+}
+
+.footer-copywright {
+  float: left;
+}
+/* End footer section  */
