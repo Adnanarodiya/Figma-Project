@@ -1,0 +1,168 @@
+:root {
+  --skyblue: #7bc0e3;
+  --green: #60e1cb;
+  --dark: #000000;
+  --white: #ffffff;
+  --background: #e9fbf8;
+  --grey: #00073b2b;
+  --card-background: #fdfdff;
+}
+
+.container {
+  max-width: 1420px !important;
+}
+
+.btn:hover {
+  /* opacity: 0.7; */
+  transform: translate3d(0, -5px, 0);
+}
+
+.section {
+  padding: 49px 0;
+}
+
+/* Start navbar section css */
+
+.nav-section {
+  height: 109px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--green) !important;
+  font-weight: 450;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--dark) !important;
+}
+
+.d-flex {
+  margin-left: 28.07px !important;
+}
+
+.btn-info {
+  background-color: var(--skyblue);
+  padding: 11.58px 22.72px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  border-color: var(--skyblue);
+  transition: 0.5s all;
+  line-height: 27px;
+}
+
+.btn-info:hover {
+  background-color: var(--skyblue);
+  color: var(--white);
+  border-color: var(--skyblue);
+  border: 2px solid var(--skyblue) !important;
+  opacity: 0.7;
+  transform: translate3d(0, -5px, 0);
+}
+
+.navbar-collapse a {
+  font-size: 18px !important;
+  line-height: 23px;
+}
+
+.navbar-collapse a:hover {
+  color: var(--dark) !important;
+}
+
+ul .spacing {
+  padding: 0 20px;
+}
+
+/* End nevbar section css  */
+
+/* Start cta section css */
+.class-text {
+  color: var(--skyblue);
+}
+
+.class-description {
+  color: var(--green);
+}
+
+.cta {
+  position: relative !important;
+  height: 579px !important;
+}
+
+.cta-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+  /* position: absolute; */
+  top: -150px !important;
+  background-image: url(image/Group\ 11032.png);
+}
+
+.cta-sections {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+}
+
+.cta-width {
+  max-width: 819.19px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.cta-btn {
+  position: absolute;
+  top: 56.5% !important;
+  max-width: 280px;
+  left: 0;
+  right: 0;
+  padding: 22px 66px;
+  box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
+  transition: 0.5s all;
+}
+
+.service-cta-section {
+  top: 0 !important;
+}
+
+/* End cta section css */
+
+/* start card section  */
+.card-container {
+  max-width: 1037px;
+  margin-left: 140px;
+  margin-top: -150px;
+}
+.card-section {
+  width: 230px;
+  height: 314px;
+}
+
+.card-img {
+  background-color: var(--background);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.card-logo-back {
+  background-color: var(--background);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+
+.highlights {
+  color: var(--green);
+}
+
+.card-btn {
+  background-color: var(--green) !important;
+  color: var(--white);
+}
+
+/* end card section */
