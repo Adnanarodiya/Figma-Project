@@ -11,6 +11,9 @@
 .container {
   max-width: 1420px !important;
 }
+.container-fluid {
+  padding: 0%;
+}
 
 .btn:hover {
   /* opacity: 0.7; */
@@ -61,7 +64,7 @@
 }
 
 .navbar-collapse a {
-  font-size: 18px !important;
+  font-size: 19px !important;
   line-height: 23px;
 }
 
@@ -114,55 +117,79 @@ ul .spacing {
 
 .cta-description {
   width: 571px;
+  padding-bottom: 1rem;
 }
 
 .service-cta-section {
   top: 0 !important;
 }
 
+.searchbar {
+  margin-bottom: auto;
+  /* margin-top: auto; */
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  line-height: 40px;
+  padding: 0 10px;
+  width: 450px;
+}
+
+.search_icon {
+  height: 43px;
+  width: 60px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--green);
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /* End cta section css */
 
-/* start card section  */
-.card-container {
-  max-width: 1037px;
-  margin-left: 140px;
-  margin-top: -150px;
-  margin-bottom: 400px;
-}
-.card-section {
-  width: 250px;
-  height: 314px;
-  background: #fdfdff;
-  box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
-  border-radius: 12px;
-}
-
-.card-img {
-  background-color: var(--background);
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-top: 30px;
-}
-
-.card-logo-back {
-  background-color: var(--background);
-  border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  margin: 10px;
-}
-
-.highlights {
-  color: var(--green);
-}
+/* start card news */
 
 .card-btn {
   background-color: var(--green) !important;
   color: var(--white);
 }
 
-/* end card section */
+.card-news {
+  background: #fdfdff;
+  box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
+  border-radius: 12px;
+}
+
+.mb-card {
+  margin-bottom: 200px;
+}
+
+.page-swape {
+  color: var(--green);
+}
+
+/* end card news */
+
+/* Start pagination */
+/* .card-pagination {
+  border: 0;
+  outline: 0;
+  background: #fdfdff;
+  box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
+  border-radius: 12px;
+} */
+/* End pagination */
 
 /* Start footer section  */
 .footer {
