@@ -1,0 +1,173 @@
+:root {
+  --skyblue: #7bc0e3;
+  --green: #60e1cb;
+  --dark: #000000;
+  --white: #ffffff;
+  --background: #e9fbf8;
+  --grey: #00073b2b;
+  --card-background: #fdfdff;
+}
+
+.container {
+  max-width: 1420px !important;
+}
+.container-fluid {
+  padding: 0%;
+}
+
+.btn:hover {
+  /* opacity: 0.7; */
+  transform: translate3d(0, -5px, 0);
+}
+
+.section {
+  padding: 49px 0;
+}
+
+/* Start navbar section css */
+
+.nav-section {
+  height: 109px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--green) !important;
+  font-weight: 450;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--dark) !important;
+}
+
+.d-flex {
+  margin-left: 28.07px !important;
+}
+
+.btn-info {
+  background-color: var(--skyblue);
+  padding: 11.58px 22.72px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  border-color: var(--skyblue);
+  transition: 0.5s all;
+  line-height: 27px;
+}
+
+.btn-info:hover {
+  background-color: var(--skyblue);
+  color: var(--white);
+  border-color: var(--skyblue);
+  border: 2px solid var(--skyblue) !important;
+  opacity: 0.7;
+  transform: translate3d(0, -5px, 0);
+}
+
+.navbar-collapse a {
+  font-size: 19px !important;
+  line-height: 23px;
+}
+
+.navbar-collapse a:hover {
+  color: var(--dark) !important;
+}
+
+ul .spacing {
+  padding: 0 20px;
+}
+
+/* End nevbar section css  */
+
+/* Start cta section css */
+.class-text {
+  color: var(--skyblue);
+}
+
+.class-description {
+  color: var(--green);
+}
+
+.SaaS {
+  position: relative !important;
+  height: 579px !important;
+}
+
+.SaaS-section {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+  /* position: absolute; */
+  top: -150px !important;
+  background-image: url(image/Group\ 11032.png);
+}
+
+.SaaS-sections {
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px !important;
+}
+
+.SaaS-width {
+  max-width: 819.19px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.SaaS-description {
+  width: 900px;
+  padding-bottom: 1rem;
+}
+
+.service-SaaS-section {
+  top: 0 !important;
+}
+
+/* End cta section css */
+
+/* start lunar section */
+.lunar-main-card {
+  margin-top: 100px;
+  background-color: var(--background);
+  width: 1200px;
+  height: 425.67px;
+  border-radius: 30px;
+}
+
+/* .cards {
+  position: relative;
+} */
+
+/* .card-section {
+  background-color: var(--background);
+  height: 100%;
+  padding: 119px 0 174px 0;
+} */
+.information-box {
+  width: 800px;
+}
+.section-heading {
+  font-size: 48px;
+  line-height: 61px;
+}
+
+.information-description {
+  font-size: 20px;
+  max-width: 600px !important;
+}
+
+.card-information {
+  border-top: 7px solid var(--green) !important;
+  background-color: var(--card-background);
+  z-index: 9;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+}
+
+.card-information .card {
+  box-shadow: 0px 34px 66px rgba(7, 0, 59, 0.08);
+}
+
+/* End lunar section */
