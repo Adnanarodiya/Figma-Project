@@ -172,7 +172,7 @@ ul .spacing {
 }
 
 .mb-card {
-  margin-bottom: 200px;
+  margin-bottom: 202px !important;
 }
 
 .page-swape {
@@ -182,13 +182,34 @@ ul .spacing {
 /* end card news */
 
 /* Start pagination */
-/* .card-pagination {
-  border: 0;
-  outline: 0;
-  background: #fdfdff;
-  box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
-  border-radius: 12px;
-} */
+.pagination-position {
+  margin-top: -242px;
+  margin-right: -65px;
+  margin-bottom: 200px !important;
+}
+.link-blog {
+  background-color: var(--card-background) !important ;
+  z-index: 9;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 34px 66px rgb(7 0 59 / 8%);
+  border: 0px !important ;
+  color: var(--skyblue) !important;
+  font-weight: bolder !important;
+}
+
+.link-blog-active {
+  background-color: var(--card-background) !important ;
+  z-index: 9;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 34px 66px rgb(7 0 59 / 8%);
+  border: 0px !important ;
+  color: #ffffff !important ;
+  background-color: var(--skyblue) !important;
+  font-weight: bolder !important;
+}
+
 /* End pagination */
 
 /* Start footer section  */
@@ -202,9 +223,9 @@ ul .spacing {
   height: 580px;
   background-size: cover;
   padding-top: 30px !important;
-  position: absolute;
+  /* position: absolute; */
   top: -150px !important;
-  background-image: url("/image/Footer.png");
+  background-image: url("image/Footer.png");
   align-items: unset;
 }
 

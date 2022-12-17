@@ -339,9 +339,9 @@ ul .spacing {
   height: 580px;
   background-size: cover;
   padding-top: 30px !important;
-  position: absolute;
+  /* position: absolute; */
   top: -150px !important;
-  background-image: url("/image/Footer.png");
+  background-image: url("image/Footer1.png");
   align-items: unset;
 }
 

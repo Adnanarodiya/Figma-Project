@@ -177,7 +177,7 @@ ul .spacing {
   padding-top: 30px !important;
   position: absolute;
   top: -150px !important;
-  background-image: url("/image/Footer.png");
+  background-image: url("image/Footer.png");
   align-items: unset;
 }
 
