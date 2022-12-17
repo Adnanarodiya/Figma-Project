@@ -138,6 +138,13 @@ ul .spacing {
   line-height: 61px;
 }
 
+.Schedule-heading {
+  font-size: 48px;
+  line-height: 61px;
+  color: var(--green);
+  margin-left: 55px;
+}
+
 .section-description {
   font-size: 20px;
   max-width: 761px;
